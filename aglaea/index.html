@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Aglaea | fragrances for women </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Artsy (1).png" alt="logo" width="500px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Deals</a></li>
+                </ul>
+            </nav>
+            <img src="images/wicker-basket.png" alt="cart" width = "30px" height="30px">
+            <img src="images/icons8-menu-50.png" class = "menu-icon" onclick="menutoggle()">
+        </div>
+
+
+        <div class="row">
+            <div class="col-2">
+                <div class="drop-down">
+                <button class="dropbtn"><i class="fa fa-bars"></i> &nbsp All Categories</button>
+                <div class="dropdown-content">
+                    <a href="#"><i class="fa fa-caret-right"></i>&nbsp Spray Perfumes</a>
+                    <a href="#"><i class="fa fa-caret-right"></i>&nbsp Solid Perfumes</a>
+                    <a href="#"><i class="fa fa-caret-right"></i>&nbsp Scented candles</a>
+                    <a href="#"><i class="fa fa-caret-right"></i>&nbsp Potpourri</a>
+                    <a href="#"><i class="fa fa-caret-right"></i>&nbsp fragranced moisturizers</a>
+                    <a href="#"><i class="fa fa-caret-right"></i>&nbsp Scented oils</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-2">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search our store">
+                    <button class="Search"><i class="fa fa-search""></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Sprinkle some to feel <br>gorgeous everytime!</h1>
+                <p>"For a woman a perfume is more than an extract, it is a presence in abstraction.<br> 
+                    A perfume, for a woman, is a mystique."<br>Choose your signature scent from the worlds' best brands of perfumes.</p>
+                <a href="" class = "btn">Explore now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/algaea store (Instagram Post).png" alt="flowers">
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!---- featured categories ---->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/perfumes (1).png" alt="Product category: Perfumes" style="padding-right: 5px; padding-left: 5px;" onclick="show_alert(alt)">
+                </div>
+                <div class="col-3">
+                    <img src="images/2per.png" alt="Product category: Potpourri" style = "padding-left: 5px; padding-right: 5px;" onclick="show_alert(alt)">
+                </div>
+                <div class="col-3">
+                    <img src="images/4per.png" alt="Product category: scented oils" style = "padding-left: 5px; padding-right: 5px;" onclick="show_alert(alt)">
+                </div>
+                <div class="col-3">
+                    <img src="images/3per.png" alt="Product category: Scented candles" style="padding-right: 5px; padding-left: 5px;" onclick="show_alert(alt)">
+                </div>
+                <div class="col-3">
+                    <img src="images/5per.png" alt="Product category: fragranced moisturizers" style="padding-left: 5px; padding-right: 5px;" onclick="show_alert(alt)">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+<!---Featured products-->
+    <div class="small-container">
+        <h2 class="title">Featured products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/coco channel.jpg" alt="Product: Coco channel Mademoiselle perfume" onclick="show_alert(alt)">
+                <h4>Coco Channel Mademoiselle perfume</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>$138.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bergamot.jpg" alt="Product: Bergamot scented candle - Rose" onclick="show_alert(alt)">
+                <h4>Bergamot scented candle - Rose</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    
+                </div>
+                <p>$27.50</p>
+            </div>
+        
+            <div class="col-4">
+                <img src="images/dolce and Gabbana.jpeg" alt="Product: D&G - Rosa Excelsa" onclick="show_alert(alt)">
+                <h4>D&G - Rosa Excelsa</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>$69.90</p>
+            </div>
+            <div class="col-4">
+                <img src="images/coco noir.jpg" alt="Product: Coco Channel Noir Perfume" onclick="show_alert(alt)">
+                <h4>Coco Channel Noir Perfume</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    
+                </div>
+                <p>$145.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/1f.jpg" alt="Product: D&G L'Impératrice cologn" onclick="show_alert(alt)">
+                <h4>D&G L'Impératrice cologn</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    
+                </div>
+                <p>$13.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/1c.jpg" alt="Product: Sandlewood insense sticks" onclick="show_alert(alt)">
+                <h4>Sandlewood insense sticks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    
+                </div>
+                <p>$27.50</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Irresistible.jpg" alt="Product: Irresistible perfume, cream and fragranced lip balm pack" onclick="show_alert(alt)">
+                <h4>Irresistible perfume, cream and fragranced lip balm pack</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Rose Gold Love Rose & Jasmine Oil.jpg" alt="Product: Rose Gold Love Rose & Jasmine Oil" onclick="show_alert(alt)">
+                <h4>Rose Gold Love Rose & Jasmine Oil</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    
+                </div>
+                <p>$9.20</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/1a.jpg" alt="Product: Wild rose and Gardenia Potpourri" onclick="show_alert(alt)">
+                <h4>Wild rose and Gardenia Potpourri</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>$8.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/1d.jpg" alt="Product: Di Gioia Perfume" onclick="show_alert(alt)">
+                <h4>Di Gioia Perfume</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    
+                </div>
+                <p>$95.50</p>
+            </div>
+            <div class="col-4">
+                <img src="images/1e.jpg" alt="Product: Daisy - Marc Jacobse" onclick="show_alert(alt)">
+                <h4>Daisy - Marc Jacobs</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                    
+                </div>
+                <p>$123.80</p>
+            </div>
+            <div class="col-4">
+                <img src="images/11candles_hori.jpg" alt="Product: Festin Magico Vanilla scented candle" onclick="show_alert(alt)">
+                <h4>Festin Magico Vanilla scented candle</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>$16.00</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    <!---Offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/cream-1464295_960_720.png" alt="Exclusive offer: Rose Petals Solid Perfume" class="offer-img" onclick="show_alert(alt)">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively on Aglaea</p>
+                    <h1>Rose petals solid perfume</h1>
+                    <small>A sweet and fresh blend of finest roses.</small> <br><small>Dab on your your skin and it will last the whole day ❤</small>
+                    <a href = "" class = "btn">Grab yours now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Testimonial section-->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>As a model it's important for me to stay fresh whole day. For that Aglaea is the only place I turn up to.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <img src="images/person1.jpg">
+                    <h3>Jennifer Mead</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I have been a customer of Aglaea for years now. And they always presented me with the most elegant and genuine products, never disappointed me.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <img src="images/person3.jpg">
+                    <h3>Julia Semenova</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Aglaea promises you to never break your trust with the best of products.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <img src="images/person5.jpg">
+                    <h3>Laila Joseph</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------Brands---------------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/pngwing.com.png" alt="Brand: Dolce & Gabbana" onclick="show_alert(alt)">
+                </div>
+                <div class="col-5">
+                    <img src="images/pngfind.com-victoria-secret-pink-logo-6592509.png" alt="Brand: Victoria Secrets" onclick="show_alert(alt)">
+                </div>
+                <div class="col-5">
+                    <img src="images/pngegg.png" alt="Brand: Tom Ford" onclick="show_alert(alt)">
+                </div>
+                <div class="col-5">
+                    <img src="images/df.png" alt="Brand: Vogue" onclick="show_alert(alt)">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!------------------footer------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Algaea app</h3>
+                    <p>Download the app for Android and IOS phones.</p>
+                    <div class="app-logo">
+                        <img src="images/playstore.png">
+                        <img src="images/apple3.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Algaea.png">
+                    <p></p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>return policy</li>
+                        <li>Join affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© 2021 Aglaea. All rights reserved.</p>
+        </div>
+    </div>
+<!---------------------JS for toggle menu-------------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+    <div class="row">
+        
+    </div>
+
+    <script>function show_alert(name){
+        alert(name);}
+    </script>
+
+
+
+    
+</body>
+</html>
